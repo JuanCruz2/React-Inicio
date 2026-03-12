@@ -1,6 +1,11 @@
+import FirstComponent from "./index.jsx";
+
 function App() {
     
-    return <h1>Hi there!</h1>;
+    return {FirstComponent} ;
+    
 }
+
+
 
 export default App;

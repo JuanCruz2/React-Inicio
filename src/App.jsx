@@ -1,10 +1,16 @@
-function App() {
-    
-    return <h1>Hi there! my name is {name} and i am {age} years old</h1>;
-}
-const name = "Juan Cruz";
-const age = 30;
+import ProfileCard from "./ProfileCard.jsx";
 
-export { name, age };
+function App() {
+    return (
+    <div>
+        <div>Personal Digital Assistants</div>
+         
+        <ProfileCard title = "Alexa" handle = "@alexa99" />
+        <ProfileCard title = "Cortana" handle = "@cortana32" />
+        <ProfileCard title = "Siri" handle = "@siri01" />
+    </div>
+    )
+}
+
 export default App;
 
